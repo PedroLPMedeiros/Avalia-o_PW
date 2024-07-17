@@ -16,12 +16,13 @@ header {
 }
 
 header h1 {
-    padding-left: 25%;
+    padding-left: 28%;
 }
 
 header img {
     height: 70px;
     padding: 10px;
+    padding-left: 20px
 }
 
 nav {
