@@ -1,3 +1,106 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 3px;
 }
+
+header h1 {
+    padding-left: 25%;
+}
+
+header img {
+    height: 70px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 3px;
+    
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: #4d4d4d;
+}
+
+main {
+    padding: 20px;
+}
+
+.section{
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background-color: rgba(215, 211, 211, 0.507);
+    
+}
+
+#contatomg {
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+h2, p {
+    padding: 2px 2px;
+    padding-left: 5px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1rem;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+}
+
+

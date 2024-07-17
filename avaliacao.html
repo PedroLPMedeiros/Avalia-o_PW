@@ -12,24 +12,64 @@
 </head>
 <body>
     <header>
-        <h1>Bem-Vindo</h1>
+        <img src="ifpng.png" alt="Logotipo">
+        <h1>Bem-Vindo à Minha Página Web</h1>
     </header>
+
     <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
 
     </nav>
     <main>
-        <div>
-            <h2>O que é o Anicon</h2>
+        <div id="inicio" class="section">
+            <h2>Início</h2>
             <p>
-                O Anicon é uma página voltada para conteúdos de otakus e geekers.
+                Bem-Vindo ao PLM Desenvolvimento Web! Página administrada pelo estudante Pedro Lucas da turma de TSI 2024.1
             </p>
         </div>
-    </main>
-    <div>
 
-    </div>
+        <div id="sobre" class="section">
+            <h2>Sobre</h2>
+            <p>
+                Esta página tem como objetivo ajudar a todos que procuram melhoras suas habilidades em desenvolvimento Web e a adquirir mais conhecimentos.
+            </p>
+        </div>
+
+        <div id="habilidades" class="section">
+            <h2>Habilidades</h2>
+            <p>
+                O site conta com profissionais especialistas em: 
+                <ul>
+                    <li>Desenvolvimento Web</li>
+                    <li>Design Responsivo</li>
+                    <li>JavaScript e FrameWorks</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="contato" class="section">
+            <h2>Contato</h2>
+            <div id="contatomg">
+                <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="nome">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
     <footer>
-        
+        <p>&copy; 2024 Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
